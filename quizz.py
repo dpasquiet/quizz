@@ -15,7 +15,7 @@ def ask_question(nb_attempts_left, question_sentence, right_answer): # three arg
 
 questions_answers_list = [
     ("How many times France soccer team won the world cup ? ", "2"),
-    ("What year was the movie 'Rocky' released ? ", "1976"),
+    ("What is the year after 1975 ? ", "1976"),
     ("Who is the founder of Tesla ? ", "elon musk")
 ]
 
