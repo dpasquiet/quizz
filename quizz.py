@@ -9,7 +9,9 @@ def ask_question(nb_attempts_left, question_sentence, right_answer): # three arg
                 print("Oh no, you lost the quiz...")
                 break
             answer = input(question_sentence)
-            answer = answer.lower()       
+            answer = answer.lower()
+        if answer == right_answer:
+            print("Good job! This is the right answer")
     print('')
     return nb_attempts_left
 
